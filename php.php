@@ -34,7 +34,7 @@ class Fruits
     }
 
     // 果物の価格に関する統計結果を出す
-    public function getData(){
+    public function printData(){
         echo "[{$this->name}の価格]\n";
         echo "最高値：{$this->maxPrice()}円\n";
         echo "最安値：{$this->minPrice()}円\n";
@@ -43,8 +43,8 @@ class Fruits
 }
 
 $peach = new Fruits("桃",15,200,300);
-$peach->getData();
+$peach->printData();
 $strawberry = new Fruits("イチゴ",15,400,500);
-$strawberry->getData();
+$strawberry->printData();
 
 ?>
