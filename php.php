@@ -41,10 +41,4 @@ class Fruits
         echo "平均価格：{$this->avePrice()}円\n";
     }
 }
-
-$peach = new Fruits("桃",15,200,300);
-$peach->printData();
-$strawberry = new Fruits("イチゴ",15,400,500);
-$strawberry->printData();
-
 ?>
